@@ -7,15 +7,16 @@ This my bashrc is useful manage file and subdirectory in one directory. It conta
   
  -----------------------------------------------------------------------------------------------------------------------------------------
  ---> DIR LIST:
-1- design/                                          2- test/                                            3- tool/         
+ 
+1- design/      2- test/      3- tool/         
 
 ---> FILE LIST:
 
-4- a.csh                                           |
+4- a.csh      |
 
-5- a.txt                                           |
+5- a.txt      |
 
-6- c.sh                                            |
+6- c.sh     |
 
 ----->
 
@@ -42,4 +43,3 @@ Sun Sep 10 06:59:11 ICT 2017
             Enter--> "a5" or "g5" or "g 5": view file a.txt by Vim.
             
             
-NOTE: this is the first draft function.
