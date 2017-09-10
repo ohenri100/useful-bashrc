@@ -1,0 +1,95 @@
+#######################################################
+alias hist='history | grep $1' #Requires one input
+alias ps='ps auxf'
+alias home='cd ~'
+alias pg='ps aux | grep'  #requires an argument
+alias un='tar -zxvf'
+alias mountedinfo='df -hT'
+alias ping='ping -c 10'
+alias openports='netstat -nape --inet'
+alias ns='netstat -alnp --protocol=inet | grep -v CLOSE_WAIT | cut -c-6,21-94 | tail +2'
+alias sized='du -sh'
+alias size='du -h -s *'
+alias du1='du -h --max-depth=1'
+alias da='date "+%Y-%m-%d %A    %T %Z"'
+# Alias to multiple ls commands
+alias la='ls -Al'               # show hidden files
+alias ls='ls -aF --color=always' # add colors and file type extensions
+alias lx='ls -lXB'              # sort by extension
+alias lk='ls -lSr'              # sort by size
+alias lc='ls -lcr'		# sort by change time  
+alias lu='ls -lur'		# sort by access time   
+alias lr='ls -lR'               # recursive ls
+alias lt='ls -ltr'              # sort by date
+alias lm='ls -al |more'         # pipe through 'more'
+alias lrt='ls -lrt'
+alias lsize='ls --sort=size -lhr' # list by size
+# Alias chmod commands
+#alias mx='chmod a+x'
+alias 000='chmod 000'
+alias 644='chmod 644'
+alias 755='chmod 755'
+
+# Alias Shortcuts to graphical programs.
+alias kwrite='kwrite 2>/dev/null &'
+alias firefox='firefox 2>/dev/null &'
+alias gaim='gaim 2>/dev/null &'
+alias kate='kate 2>/dev/null &'
+alias suk='kdesu konqueror 2>/dev/null &'
+
+alias   l='clear;ls -aF --color;echo;pwd;date'
+alias   ld='clear;disd;pwd;date'
+alias   lk='clear;disd;pwd;date'
+#alias   cd='chdir \!*; echo "\033]2;`bn`\007";pwd;l'
+alias	cadence='virtuoso &'
+alias	virt='virtuoso &'
+alias   cp='cp -i'
+alias   cpexec='find . -perm /a+x -exec cp {} $1 \;'
+alias   mv='mv -i'
+alias   grep='grep --color'
+alias   ll='ls -ltLF | more'
+alias   ..='cd ..'
+alias   1.='cd ..'
+alias   ...='cd ..;cd ..'
+alias   2.='cd ..;cd ..'
+alias   ....='cd ..;cd ..;cd ..'
+alias   3.='cd ..;cd ..;cd ..'
+alias   .....='cd ..;cd ..;cd ..;cd ..'
+alias   4.='cd ..;cd ..;cd ..;cd ..'
+alias   du='du -k -s'
+alias   zip='tar cvfh - "\!*" |gzip -> DULL.tgz '
+alias   clean='rm *.o* *.e*'
+alias   frm='find . -name "\!*" -exec rm -rf {} \;'
+#typo:
+alias	xs='cd'
+alias	vf='cd'
+####################
+alias 	disp='setenv DISPLAY "\!*"'
+#alias 	disp    'setenv DISPLAY "\!*":0.0'
+alias   pdf='kpdf $1'
+####################
+alias   myvnc='vncserver -geometry 1920x1018 -depth 24'
+alias   myvncsmall='vncserver -geometry 1278x710 -depth 24'
+alias   vnclist='ps -ef | grep vnc'
+#####TOOL USING#####
+alias	cadbin='cd /home/users/cad/bin'
+####################
+
+# Office
+alias word='/tools/OpenOffice/openoffice.org3/program/soffice $1'
+alias powerpoint='/tools/OpenOffice/openoffice.org3/program/simpress $1'
+alias excel='/tools/OpenOffice/openoffice.org3/program/scalc $1'
+alias formular='/tools/OpenOffice/openoffice.org3/program/smath'
+alias draw='/tools/OpenOffice/openoffice.org3/program/sdraw'
+
+alias d_out='find . -name "output" -exec rm -r "{}" \;'
+
+#Fixed typo VI
+alias iv='vi'
+alias v='vi'
+alias vo='vi'
+
+#git
+alias gitlog='git -c core.pager="less -SRF" log --oneline --graph --decorate'
+alias gst='git status'
+
