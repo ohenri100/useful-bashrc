@@ -1,18 +1,28 @@
 # useful-bashrc
 This my bashrc is useful manage file and subdirectory in one directory. It contain one function to list the content of the directory and add a prefix number when print on terminal. We could go to subdirectory/view the content of file quickly with those index number. 
 #Usage:
-  1. Command: ld --> List the content of the current directory
+  1. Command: ld --> List the content of the current directory 
+  
   ==> Result: 
+  
  -----------------------------------------------------------------------------------------------------------------------------------------
  ---> DIR LIST:
-1- design/                                          2- test/                                            3- tool/           
+1- design/                                          2- test/                                            3- tool/         
+
 ---> FILE LIST:
+
 4- a.csh                                           |
+
 5- a.txt                                           |
+
 6- c.sh                                            |
+
 ----->
+
 /home/users/tux/study
+
 Sun Sep 10 06:59:11 ICT 2017
+
 -----------------------------------------------------------------------------------------------------------------------------------------
   2. Command:
     g index |
