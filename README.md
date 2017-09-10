@@ -36,7 +36,8 @@ Sun Sep 10 06:59:11 ICT 2017
     
     aindex  |
     
-   Example: Enter--> "a2" or "a 2": cd to test directory
+   Example: 
+            Enter--> "a2" or "a 2": cd to test directory
    
             Enter--> "a5" or "g5" or "g 5": view file a.txt by Vim.
             
